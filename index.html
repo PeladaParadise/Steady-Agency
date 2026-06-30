@@ -550,7 +550,7 @@
             ${Object.keys(SCRIPTS).map(s => `
               <button class="btn" onclick="selectSituation('${s}')">${s}</button>
             `).join('')}
-            <button class="btn btn-full" onclick="selectSituation('Something else')">Something else...</button>
+           <button class="btn btn-full" onclick="selectSituation('Something else')" style="display:none">Something else...</button>
           </div>
         `;
       }
